@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM centos7
+FROM openshift/base-centos7
 
 RUN yum install epel-release -y
 
